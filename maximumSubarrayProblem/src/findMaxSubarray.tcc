@@ -7,15 +7,7 @@
 
 #include <cstddef>
 #include <limits>
-
-/**
- * A struct containing the properties of a subarray.
- */
-struct ret{
-    int low; // The lowest index of the subarray
-    int high; // The highest index of the subarray
-    int sum; // The sum of all the elements in the subarray
-};
+#include "returnStruct.h"
 
 /**
  * Finds the subarray with the largest sum of elements
@@ -32,7 +24,7 @@ struct ret{
  * @param low The lowest index of the partition
  * @param mid The middle index of the partition
  * @param high The highest index of the partition
- * @return
+ * @return The lowest/highest index, and sum of the maximum partition
  */
 template <size_t n>
 ret findMaxCrossingSubarray(int (&A)[n], int low, int mid, int high){
@@ -71,7 +63,7 @@ ret findMaxCrossingSubarray(int (&A)[n], int low, int mid, int high){
  * @param A Array to find the subarray of
  * @param low Lowest index of the partition
  * @param high Highest index of the partition
- * @return
+ * @return The lowest/highest index, and sum of the maximum subarray
  */
 template <size_t n>
 ret findMaximumSubarray(int (&A)[n], int low, int high){
