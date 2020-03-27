@@ -1,17 +1,8 @@
 //
 // Created by soppy on 27/03/2020.
 //
-#include "matrixMult.h"
+#include "matrix.h"
 
-/**
- * Constructs a matrix with the given number of
- * rows and columns, and fills it with a given
- * default value.
- *
- * @param rows Unsigned integer of row size
- * @param cols Unsigned integer of column size
- * @param def Default integer to populate the matrix with
- */
 Matrix::Matrix(unsigned rows, unsigned cols, int def) {
     m_rowSize = rows;
     m_colSize = cols;

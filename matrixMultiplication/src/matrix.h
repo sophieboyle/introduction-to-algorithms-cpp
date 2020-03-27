@@ -2,8 +2,8 @@
 // Created by soppy on 27/03/2020.
 //
 
-#ifndef ARRAYMULTIPLICATION_MATRIXMULT_H
-#define ARRAYMULTIPLICATION_MATRIXMULT_H
+#ifndef ARRAYMULTIPLICATION_MATRIX_H
+#define ARRAYMULTIPLICATION_MATRIX_H
 
 #include <iostream>
 #include <vector>
@@ -22,4 +22,4 @@ private:
     std::vector<std::vector<int> > m_matrix; // Maintains contents of the matrix
 };
 
-#endif //ARRAYMULTIPLICATION_MATRIXMULT_H
+#endif //ARRAYMULTIPLICATION_MATRIX_H

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "matrixMult.h"
+#include "matrix.h"
 
 int main() {
     Matrix A(2, 2, 0);
