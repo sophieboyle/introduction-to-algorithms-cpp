@@ -3,4 +3,4 @@ project(arrayMultiplication)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(arrayMultiplication src/main.cpp src/matrix.h src/matrix.cpp)
+add_executable(arrayMultiplication src/main.cpp src/matrix.h src/matrix.cpp src/recMatrixMult.cpp src/recMatrixMult.h)
